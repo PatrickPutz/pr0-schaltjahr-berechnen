@@ -28,6 +28,9 @@ public class SchaltjahrBerechnen {
             if (doubleCheck == 1 && remainderFourhundred != 0 && remainderHundred == 0){
                 System.out.println(year + " is not a leap year.");
             }
+            else if (doubleCheck != 1){
+                System.out.println("Okay, then it shall remain a mystery.");
+            }
             else{
                 System.out.println(year + " really is a leap year.");
             }
